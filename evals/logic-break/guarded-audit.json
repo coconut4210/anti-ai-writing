@@ -1,0 +1,77 @@
+{
+  "cases": [
+    {
+      "id": "LB-B01",
+      "overall": "pass",
+      "logical_validity": [],
+      "argumentative_progression": [],
+      "user_position_protection": {
+        "pass": true,
+        "note": "保留了新功能可能提升满意度的核心方向，并明确限定为待验证解释。"
+      },
+      "false_positive_or_style_damage": {
+        "pass": true,
+        "note": "保留了必要的替代解释、验证条件和分析铺垫，没有误删合理内容。"
+      },
+      "internal_label_leakage": {
+        "pass": true,
+        "note": "正文未出现内部控制标签。"
+      }
+    },
+    {
+      "id": "LB-B02",
+      "overall": "pass",
+      "logical_validity": [],
+      "argumentative_progression": [],
+      "user_position_protection": {
+        "pass": true,
+        "note": "保留了AI、效率、满意度和忠诚度之间的讨论方向，同时阻断了未经支持的确定性级联。"
+      },
+      "false_positive_or_style_damage": {
+        "pass": true,
+        "note": "没有删除必要的条件、替代解释或合理限定。"
+      },
+      "internal_label_leakage": {
+        "pass": true,
+        "note": "正文未出现内部控制标签。"
+      }
+    },
+    {
+      "id": "LB-B03",
+      "overall": "pass",
+      "logical_validity": [],
+      "argumentative_progression": [],
+      "user_position_protection": {
+        "pass": true,
+        "note": "始终围绕AI进入日常生活展开，没有擅自转换为技术说明或立场相反的文章。"
+      },
+      "false_positive_or_style_damage": {
+        "pass": true,
+        "note": "机制、边界、价值判断和修辞均承担了明确功能，没有将评论性表达误判为逻辑缺陷。"
+      },
+      "internal_label_leakage": {
+        "pass": true,
+        "note": "正文未出现内部控制标签。"
+      }
+    },
+    {
+      "id": "LB-B04",
+      "overall": "pass",
+      "logical_validity": [],
+      "argumentative_progression": [],
+      "user_position_protection": {
+        "pass": true,
+        "note": "完整保留了低音压迫、高音挣脱失败的核心感受。"
+      },
+      "false_positive_or_style_damage": {
+        "pass": true,
+        "note": "使用“感受”“像”“仿佛”等表达明确了主观归属，合理保留了解释性修辞。"
+      },
+      "internal_label_leakage": {
+        "pass": true,
+        "note": "正文未出现内部控制标签。"
+      }
+    }
+  ],
+  "summary": "四个案例均通过审查。正文未发现缺失依据的关键关系、论证停滞、用户立场偏移、误删必要内容或内部标签泄漏。"
+}

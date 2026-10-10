@@ -1,0 +1,9 @@
+{
+  "case_id": "LBT-001",
+  "rule_version": "02-逻辑断裂.txt 候选规则 V1",
+  "generation_mode": "current-session direct generation",
+  "independent_validator": false,
+  "repair_rounds": 0,
+  "final_file": "draft.txt",
+  "limitation": "原计划的隔离模型生成与独立审计因外部传输权限被拒绝，结果只可作为人工体验样本，不能作为规则有效性的独立验证。"
+}

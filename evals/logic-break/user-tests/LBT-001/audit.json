@@ -1,0 +1,25 @@
+{
+  "audit_type": "same-session review; not an independent validator",
+  "overall": "pass",
+  "logical_validity": [],
+  "argumentative_progression": [],
+  "position_protection": {
+    "pass": true,
+    "note": "正文保留核心判断，并在开头把‘最昂贵’界定为对隐性、延后和转移成本的修辞性判断，没有改写成可量化的普遍事实。"
+  },
+  "internal_label_leakage": {
+    "pass": true,
+    "note": "正文未出现命题标签、准入门、论证目标、完成条件或审计术语。"
+  },
+  "goal_completion": [
+    "说明‘昂贵’所指的成本类型",
+    "解释零价格为何降低主动权衡",
+    "解释商业免费如何转移或延后成本",
+    "推出注意力损失与依赖形成的后果",
+    "明确命题成立范围并形成综合结论"
+  ],
+  "redundancy_spans": [],
+  "nonadvancing_spans": [],
+  "unresolved_questions": [],
+  "summary": "各段依次完成概念界定、心理机制、商业机制、累积后果、综合推论和适用边界，关系强度基本与依据匹配；未发现需要局部修复的明确断裂。"
+}

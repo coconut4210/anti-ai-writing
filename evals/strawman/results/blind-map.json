@@ -1,0 +1,14 @@
+{
+  "B01": {"source": "ST-GEN-004-A.txt", "case_id": "ST-GEN-004", "variant": "A"},
+  "B02": {"source": "ST-GEN-001-B.txt", "case_id": "ST-GEN-001", "variant": "B"},
+  "B03": {"source": "ST-GEN-006-A.txt", "case_id": "ST-GEN-006", "variant": "A"},
+  "B04": {"source": "ST-GEN-002-B.txt", "case_id": "ST-GEN-002", "variant": "B"},
+  "B05": {"source": "ST-GEN-003-A.txt", "case_id": "ST-GEN-003", "variant": "A"},
+  "B06": {"source": "ST-GEN-005-B.txt", "case_id": "ST-GEN-005", "variant": "B"},
+  "B07": {"source": "ST-GEN-001-A.txt", "case_id": "ST-GEN-001", "variant": "A"},
+  "B08": {"source": "ST-GEN-004-B.txt", "case_id": "ST-GEN-004", "variant": "B"},
+  "B09": {"source": "ST-GEN-002-A.txt", "case_id": "ST-GEN-002", "variant": "A"},
+  "B10": {"source": "ST-GEN-006-B.txt", "case_id": "ST-GEN-006", "variant": "B"},
+  "B11": {"source": "ST-GEN-005-A.txt", "case_id": "ST-GEN-005", "variant": "A"},
+  "B12": {"source": "ST-GEN-003-B.txt", "case_id": "ST-GEN-003", "variant": "B"}
+}

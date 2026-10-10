@@ -1,0 +1,9 @@
+{
+  "id": "UST-001-C",
+  "date": "2026-10-09",
+  "core_thesis": "应试教育忽视了个体的个性化发展",
+  "writing_task": "围绕核心论点写一篇探讨性短文，解释论点成立的机制、适用范围和关键条件。终稿以推进核心论点为主。",
+  "length": "600—900字",
+  "change_under_test": "双向推演只在内部构思阶段完成，默认不进入终稿",
+  "status": "user_reviewed_basic_pass"
+}

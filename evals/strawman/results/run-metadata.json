@@ -1,0 +1,22 @@
+{
+  "status": "reviewed_failed_gate",
+  "date": "2026-10-09",
+  "model": "gpt-5.6-sol",
+  "reasoning_setting": "medium",
+  "execution": "codex exec --ephemeral --ignore-user-config --sandbox read-only",
+  "runs": [
+    {"case_id":"ST-GEN-001","variant":"A","session_id":"01a120e9-d170-7653-87b4-5bf7efe38b12","output":"raw/ST-GEN-001-A.txt"},
+    {"case_id":"ST-GEN-001","variant":"B","session_id":"01a120ec-a0c2-7ec2-9d98-f6e6b26aaaf4","output":"raw/ST-GEN-001-B.txt"},
+    {"case_id":"ST-GEN-002","variant":"A","session_id":"01a120ef-4471-7683-ad30-771893b554ad","output":"raw/ST-GEN-002-A.txt"},
+    {"case_id":"ST-GEN-002","variant":"B","session_id":"01a120f3-de19-7800-8500-d5069fe71665","output":"raw/ST-GEN-002-B.txt"},
+    {"case_id":"ST-GEN-003","variant":"A","session_id":"01a120f1-9430-7e53-8252-b32272ca6fe5","output":"raw/ST-GEN-003-A.txt"},
+    {"case_id":"ST-GEN-003","variant":"B","session_id":"01a120ef-47a8-7663-9817-2804e1a15eb8","output":"raw/ST-GEN-003-B.txt"},
+    {"case_id":"ST-GEN-004","variant":"A","session_id":"01a120f3-9bc6-76a1-a575-599f171be430","output":"raw/ST-GEN-004-A.txt"},
+    {"case_id":"ST-GEN-004","variant":"B","session_id":"01a120f1-9454-71a1-96f4-459dca3ad231","output":"raw/ST-GEN-004-B.txt"},
+    {"case_id":"ST-GEN-005","variant":"A","session_id":"01a120ef-469d-78b0-9991-9e73c95d9598","output":"raw/ST-GEN-005-A.txt"},
+    {"case_id":"ST-GEN-005","variant":"B","session_id":"01a120f3-b92e-7661-9702-6d87571f7710","output":"raw/ST-GEN-005-B.txt"},
+    {"case_id":"ST-GEN-006","variant":"A","session_id":"01a120f1-a2b7-7b11-9a30-915a52b51a0a","output":"raw/ST-GEN-006-A.txt"},
+    {"case_id":"ST-GEN-006","variant":"B","session_id":"01a120f5-de8b-79d2-92c9-1da539ae4199","output":"raw/ST-GEN-006-B.txt"}
+  ],
+  "notes": "12 篇原始输出均已保存并完成双人盲评；A、B 两版均为 6/6 硬失败，首轮规则未通过。"
+}
