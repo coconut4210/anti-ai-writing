@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anti-AI-Writing"
+  short_description: "围绕用户核心论点创作，减少常见的 AI 写作失真问题"
+  default_prompt: "Use $anti-ai-writing to develop my core claim into an independent Chinese analysis: …"
