@@ -28,7 +28,7 @@ Disabling a module affects only this Skill's workflow. It does not remove platfo
 
 ## Runtime References
 
-Read [the shared contract](references/shared-contract.md) before applying modules. Read [the module interface](references/module-interface.md) when adding, changing, or disabling modules.
+Read [the shared contract](references/shared-contract.md) before applying modules. Read [the module interface](references/module-interface.md) when adding, changing, or disabling modules. Apply the shared conflict priority whenever module proposals overlap.
 
 Load enabled modules from this registry:
 
