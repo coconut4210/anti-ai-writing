@@ -21,6 +21,7 @@ Do not automatically use for translation, summarization, formatting, fact lookup
 Honor natural-language controls such as:
 
 - “不要使用 anti-ai-writing”；
+- “关闭 anti-ai-writing”；
 - “跳过防御性写作检查”；
 - “只使用稻草人和逻辑断裂模块”。
 
