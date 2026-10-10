@@ -47,6 +47,8 @@ $anti-ai-writing 围绕这个观点写一篇评论：……
 
 评测材料位于 `evals/`，运行规则位于 `references/`，完整架构见 `docs/architecture.md`。
 
+跨模块发布前检查见 `evals/integration/`。
+
 ## 许可证
 
 发布许可证尚未选择。
