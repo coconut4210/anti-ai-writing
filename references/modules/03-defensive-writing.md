@@ -5,7 +5,7 @@ module_id: AW-03
 name: defensive-writing-guard
 version: 1.0
 default_enabled: true
-stages: [prepare, compose, audit, resolve]
+stages: [prepare, compose, audit, validate, resolve]
 reads: [content.intent_spec, content.draft_versions, request.source_policy, content.validation_results]
 writes: [content.diagnostics, content.patch_proposals, content.uncertainty_items]
 invariants: [do_not_invent_opposition, do_not_leak_exclusions, do_not_invent_evidence, preserve_necessary_qualifications]
@@ -15,6 +15,10 @@ revalidate_after: [any_semantic_patch]
 ## Purpose
 
 Keep the prose centered on what the user wants to say. Remove a model-invented opponent, a user exclusion that leaked into the prose, and defensive chains that add no independent information. Preserve a real opposition, necessary evidence boundary, or high-risk warning when the task or material requires it.
+
+## Validate
+
+After the unified `rewrite`, check only whether a defensive phrase, exclusion, or required qualification was introduced, removed, or distorted by that rewrite. Do not create a second evidence-gap packet during this pass; the packet is produced only from unresolved audit findings.
 
 ## Prepare
 

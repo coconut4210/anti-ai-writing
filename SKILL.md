@@ -37,17 +37,17 @@ Load enabled modules from this registry:
 |---|---|---|---|
 | AW-01 | 稻草人保护 | [01-strawman.md](references/modules/01-strawman.md) | prepare, audit, validate |
 | AW-02 | 逻辑断裂控制 | [02-logic-break.md](references/modules/02-logic-break.md) | plan, compose, audit, validate |
-| AW-03 | 防御性写作控制 | [03-defensive-writing.md](references/modules/03-defensive-writing.md) | prepare, compose, audit, resolve |
+| AW-03 | 防御性写作控制 | [03-defensive-writing.md](references/modules/03-defensive-writing.md) | prepare, compose, audit, validate, resolve |
 
 ## Workflow
 
 1. Parse the request into the shared contract and determine enabled modules.
-2. Run `prepare`: AW-01 locks the user position; AW-03 separates content goals from exclusions and real opposition.
-3. Run `plan`: AW-02 builds the argument goals, supported relationships, and necessary boundaries.
+2. Run `prepare`: if enabled, AW-01 locks the user position; if enabled, AW-03 separates content goals from exclusions and real opposition. The controller always establishes a minimal `intent_spec` from the request.
+3. Run `plan`: if enabled, AW-02 builds the argument goals, supported relationships, and necessary boundaries.
 4. Compose one continuous draft with AW-02 and AW-03 controls.
 5. Run all enabled audits. Modules produce diagnostics and local patch proposals; they do not rewrite the whole draft independently.
 6. Merge compatible proposals once in `rewrite`, using the conflict priority in the shared contract.
-7. Revalidate semantic changes: AW-01 protects the user position, AW-02 checks logic and progression, AW-03 checks defensive leakage.
+7. Revalidate semantic changes with every enabled validator: AW-01 protects the user position, AW-02 checks logic and progression, and AW-03 checks defensive leakage. If AW-03 is disabled, do not generate its evidence-gap review packet.
 8. Stop after two repair rounds. Ask one question only if a remaining ambiguity would change the article's direction; otherwise deliver the draft.
 9. If AW-03 finds an actionable evidence gap, append its user review packet after the complete draft.
 

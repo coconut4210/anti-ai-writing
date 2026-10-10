@@ -6,7 +6,7 @@ name: logic-break-guard
 version: 1.0
 default_enabled: true
 stages: [plan, compose, audit, validate]
-reads: [content.intent_spec, content.argument_plan, content.draft_versions, AW-01.user_position]
+reads: [content.intent_spec, content.argument_plan, content.draft_versions]
 writes: [content.argument_plan, content.diagnostics, content.patch_proposals, content.validation_results]
 invariants: [preserve_user_position, do_not_invent_evidence, separate_validity_from_progression]
 revalidate_after: [any_semantic_patch, AW-03.semantic_patch]
@@ -22,6 +22,8 @@ Control two independent risks:
 Do not treat sentence length, connective words, literary interpretation with clear subjective ownership, or necessary background as automatic defects.
 
 ## Plan
+
+Read the user's position from `content.intent_spec`. The controller creates a minimal `intent_spec` from the request even when AW-01 is disabled; AW-02 must not depend on another module's private output.
 
 Keep the user's `user_position` as the writing target. Separate it from model-added support, interpretation, hypothesis, and external-looking facts.
 
